@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: rgb(182, 253, 5);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-decoration: underline;
+    color: white;
+}
+
+h3 {
+    margin-top: 3rem;
+    color: rgb(182, 253, 5);
+}
+
+.boxPara{
+    color: rgb(255, 174, 0);
+}
+
+#box1{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(0,255,0);
+    color:black;
+    font-size: 20px;
+}
+
+#box2{
+    height: 50px;
+    width: 50%;
+    margin-left: 10%;
+    background-color: rgb(255,255,0);
+    color: black;
+    font-size: 0.5em;
+    /*width: 6em; here, 6 times of its font-size*/
+    width: 6rem; /*here it is 6 times of its body font-size.. i have add hello at the beginning under body tag. you can check the font-size of that hello! ..*/
+}

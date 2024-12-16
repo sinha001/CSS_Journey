@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning CSS</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Level 2: BOX MODEL</h1>
+
+    <!--BOX MODEL CSS-->
+    <h3>1. Box-Model in CSS:</h3>
+    <div class="container">
+      <div class="outerBox">
+        <h3 class="widthShow">width</h3>
+        <h3 class="heightShow">height</h3>
+        <h4 class="paddingText">Padding</h4>
+        <div class="innerBox">CONTENT</div>
+      </div>
+      <span class="spaceBetween">margin</span>
+      <div class="outerBox">
+        <div class="innerBox">CONTENT</div>
+      </div>
+    </div>
+    <ul>
+      <li>
+        Height
+        <div class="listDiv">
+          <p class="boxPara">
+            By default, it sets the content area <b>height</b> of the element.
+            <br /><br />
+            Example:
+            <b>height</b>: 50px;
+          </p>
+        </div>
+      </li>
+      <br />
+      <li>
+        Width
+        <div class="listDiv">
+          <p class="boxPara">
+            By default, it sets the content area <b>width</b> of the element.
+            <br /><br />
+            Example:
+            <b>width</b>: 50px;
+          </p>
+        </div>
+      </li>
+      <br />
+      <li>
+        Border
+        <div class="listDiv">
+          <p class="boxPara">
+            Used to set an element's <b>border</b>. <br /><br />
+            Example:
+            <b>border-width</b>: 2px; <b>border-style</b>: solid/dotted/dashed;
+            <b>border-color</b>: black; <b>border</b>: 2px dotted black;
+            <b>border-radius</b>: 10px; //or 50%
+          </p>
+        </div>
+      </li>
+      <br />
+      <li>
+        Padding
+        <div class="listDiv">
+          <p class="boxPara">
+            Example:
+            <b>padding-left</b>:5px; <b>padding-right</b>:50px;
+            <b>padding-top</b>:5px; <b>padding-bottom</b>:50px;
+            <br />
+            padding-shorthand..
+            <b>padding</b>:25px; <b>padding</b>:1px 2px 3px 4px;
+          </p>
+        </div>
+      </li>
+      <br />
+      <li>
+        Margin
+        <div class="listDiv">
+          <p class="boxPara">
+            Example:
+            <b>margin-top</b>:50px; <b>margin-bottom</b>:50px;
+            <b>margin-left</b>:50px; <b>margin-right</b>:50px;
+            <br />
+            margin shorthand...
+            <b>margin</b>:50px; <b>margin</b>:5px 0px 5px 0px;
+          </p>
+        </div>
+        <br />
+      </li>
+      <br />
+    </ul>
+    <hr />
+
+    <!--Practise Set 3-->
+
+    <h3>2. Practise Set 3</h3>
+    <ol>
+      <li>
+        Create a div with height & width of 100px. <br />
+        Set its background-color to green & the border radius to 50%.
+
+        <br />
+        <br />
+
+        <div class="set3Div"></div>
+      </li>
+      <br />
+      <li>
+        Creating amazon old navbar..<br /><br />
+        <img src="/Level2/images/amazonNav.png" />
+        <br /><br />
+        <img src="/Level2/images/amazonNavInfo.png" />
+      </li>
+      <br /><br />
+      <h4>Answer</h4>
+      <a href="/Level2/NavbarAmazon/navbar.html">Answer 3 - Amazon Navbar</a>
+      <br />
+    </ol>
+
+    <!--Day 2 -- Level 2-->
+    <hr />
+    <h1>Level 2 - Day 2</h1>
+    <h3>3. <u>Display Property</u></h3>
+    <span>display: inline/block/inline-block/none</span>
+
+    <div class="propDiv">
+      <ul>
+        <li>
+          inline:
+          <p class="para">
+            Takes only the space required by the element. (no margin/padding).
+          </p>
+          <br />
+        </li>
+        <li>
+          block:
+          <p class="para">Takes full space available in width.</p>
+          <br />
+        </li>
+        <li>
+          inline-block:
+          <p class="para">
+            Similar to inline, but we can set margin & padding.
+          </p>
+          <br />
+        </li>
+        <li>
+          none:
+          <p class="para">To remove element from document flow.</p>
+          <br />
+        </li>
+      </ul>
+    </div>
+    <h3>4. <u>Visibility</u></h3>
+    <span><b>visibility</b>: hidden</span>
+    <p class="para">
+      <b>Note</b>: When visibility is det to none, space for the element is
+      reserved. <br />But for display set to none, no space is reservedor
+      blocked for the element.
+    </p>
+
+    <h3>5. <u>Alpha Channel</u></h3>
+    <span>opacity(0 to 1)</span>
+    <div class="listDiv">
+      <ul>
+        <li>
+          <b>RGBA:</b>
+          <p class="para">
+            <b>color</b>: rgba(255,0,0,0.5);
+            <br />
+            <b>color</b>: rgba(255,0,0,1);
+            <br />
+            0 -- means not visible.<br />
+            1 -- means completely visible.
+          </p>
+        </li>
+      </ul>
+      <br />
+    </div>
+    <hr />
+    <!--Practise Set 4-->
+
+    <h3>6. Practise Set 4</h3>
+    <ol>
+      <li>
+        Create a webpage layout with a header, a footer & a content area containing 3 divs. <br />
+        Set the height & width of divs to 100px.<br/>
+        (add the previous navbar in the header).
+
+        <br />
+        <br />
+      </li>
+      <br />
+      <li>
+        Add border to all divs.<br /><br />
+      </li>
+      
+      <li>
+        Add a different background color to each div with an opacity of 0.5.<br /><br />
+      </li>
+      <li>
+        Give the content area an appropriate height.
+      </li>
+      <br /><br />
+    </ol>
+    <h4>Answer</h4>
+      <a href="/Level2/Webpage/web.html">Answer Set 4       <br />
+      </a>
+      <br />
+    <hr />
+    <br />
+
+    <a href="/Level3/index.html">Level 3: NEXT LEVEL of CSS</a>
+    <br/><br/>
+    <a href="/Level1/index.html">Level 1: Basic CSS</a>
+  </body>
+</html>

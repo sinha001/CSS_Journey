@@ -1,0 +1,195 @@
+/*
+Level 1: BASIC CSS
+
+1. CSS (Cascading Style Sheet)
+--> It is a language that is used to describe the style of a document.
+
+    Basic Syntax: 
+
+    h1{ //h1 ---> selector
+        color : red; //color --> property, red --->value
+    }
+
+2. Including Style
+    a. Inline: <h1 style="color:red;">Inline</h1>
+    b. <style> tag: 
+    ---><style> 
+        h1{
+            color:green;
+        }
+        </style>
+    
+    c. External Stylesheet: Writing CSS in a separate Document & linking it with HTML File.
+
+    (inline > style tag > external stylesheet) --> priority wise
+*/
+*{
+    color: white;
+    /*Practise set 2 - Q2*/
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: red;
+}
+
+/*
+3. Color Property: Used to set the color of foreground.
+    example: --> color: red; color:green; color:pink;,...
+*/
+
+h3{
+    color:chartreuse;
+}
+
+/*
+4. Background Color Property: Used to set the color of background.
+    example: --> background-color: red; background-color:green; background-color:pink;,...
+
+5. Color System:
+--> RGB
+    a. color: rgb(255,0,0) 
+    b. color: rgb(0,255,0)
+
+    where r-->red , g-->green , b-->blue
+    range 0-255 for each r,g,b. 
+
+--> Hex (Hexadecimal)   
+    a. range --> 0-15 --> (0-9 ,A,B,C,D,E,F)
+
+    R/G/B--> (0-255) --> (00-ff). Here 0 --> 00 or, 255-->ff
+    eg: red --> #ff 00 00  , Green --> #00ff00
+                  R  G  B                R G B
+*/
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+button{
+    color:rgb(17, 18, 17);
+    background-color: #ffff00;
+}
+
+/*
+6. Selectors:
+
+--> Universal Selector: 
+    * ---> asterisk
+    {..} 
+
+--> Element Selector:
+    h1{...}
+
+--> ID Selector: -->unique for each element 
+    #myID {..}
+
+--> Class Selector: for multiple elements 
+    .myClass {..}
+*/
+
+#para, .listPara{
+    color: #ffcc00
+}
+
+li, .list{
+    color: rgb(0, 255, 21);
+}
+
+/*
+Practise Set 1
+*/
+
+/*Q1*/
+#box{
+    background-color: blue;
+}
+
+/*Q2*/
+.heading{
+    color: red;
+}
+
+/*Q3*/
+#btn{
+    background-color:#00ff00;
+}
+
+.paraAlign{
+    text-align: start; /* alignment change on the basis of their parent class */
+}
+
+.link{
+    text-decoration: none;
+}
+h4{
+    text-decoration: underline;
+}
+
+/*font-weight*/
+#head1{
+    font-weight: normal;
+    /*font-family*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#head2{
+    font-weight: bold;
+}
+
+#head3{
+    font-weight: 100; /*100 -- lighter , 900 -- bolder*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#head4{
+    font-weight: 900;
+}
+
+/*
+Units in CSS:
+
+--> Absolute:
+    1. pixels:
+*/
+
+#paraOne{
+    font-size: 25px;
+}
+
+#paraTwo{
+    font-size: 50px;
+}
+
+/*
+    2. Line-height:
+*/
+.paraThree{
+    line-height: 50px;
+}
+
+/*
+    3. text-transform: 
+*/
+
+.paraFour{
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+/*Practise Set 2*/
+.headQ1P2{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/*Practise set 2 -- Q3*/
+#outer
+{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}
+
+/*    End - lEVEL 1: BASIC CSS*/

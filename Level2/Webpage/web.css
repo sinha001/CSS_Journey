@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+.contentArea{
+    height: 85vh;
+}
+
+.firstDiv, .secondDiv, .thirdDiv{
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+    margin: 10px;
+    display: inline-block;
+}
+
+.firstDiv{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.secondDiv{
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+.thirdDiv{
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+footer{
+    padding: 10px;
+    background-color: #131A22;
+    text-align: center;
+}

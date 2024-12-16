@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Learning CSS</title>
+    <link href="style.css" rel="stylesheet" />
+    <!-- practise set 1 --- Q3
+    <style>
+      #btn {
+        background-color: blue;
+      }
+    </style>
+    -->
+  </head>
+  <body>
+    <h1>Level 1 - Basic CSS</h1>
+    <ol>
+      <li class="list">
+        <h3><u class="list">CSS (Cascading Style Sheet):</u></h3>
+        <p class="listPara">
+          It is a language that is used to describe the style of a document.
+        </p>
+      </li>
+      <li class="list">
+        <h3><u class="list">Color Property:</u></h3>
+        <p class="listPara">It is Used to set the color of foreground.</p>
+      </li>
+      <li class="list">
+        <h3><u class="list">Background Color Property:</u></h3>
+        <p class="listPara">It is Used to set the color of background.</p>
+      </li>
+    </ol>
+    <p id="para">This is an example of ID selector</p>
+    <button>Click ME!!</button>
+
+    <hr />
+    <!-- PRACTISE SET 1-->
+
+    <h2 class="heading2">Practise Set 1</h2>
+    <ol>
+      <li>
+        <h3 class="list">
+          Create a simple div with id "box". Add some text content inside the
+          div. Set its background color to blue.
+        </h3>
+        <!--Answer Q1-->
+        <div id="box">
+          <p>This is Answer 1 from Practise Set 1.</p>
+        </div>
+        <br />
+      </li>
+      <li>
+        <h3 class="list">
+          Create 3 headings with h1, h2, h3. Give them all a class "heading" &
+          set color of "heading" to red.
+        </h3>
+        <!--Answer 2-->
+        <div>
+          <h1 class="heading">Heading 1</h1>
+          <h2 class="heading">Heading 2</h2>
+          <h3 class="heading">Heading 3</h3>
+          <br />
+        </div>
+      </li>
+      <li>
+        <h3 class="list">Create a button & set is background color to:</h3>
+        <ul>
+          <li>green using css stylesheet</li>
+          <li>blue using style tag.</li>
+          <li>pink using inline style.</li>
+        </ul>
+        <br />
+        <!--Answer 3-->
+        <div>
+          <!-- <button id="btn" style="background-color: pink">Answer 3</button> -->
+          <button id="btn">Answer 3</button>
+        </div>
+      </li>
+    </ol>
+    <hr />
+
+    <!--TEXT PROPERTIES IN CSS-->
+    <ol>
+      <li class="list">
+        <h3><u class="list">Text Properties:</u></h3>
+        <ul>
+          <li>
+            <h4>text-align</h4>
+            <pre class="listPara"><b>text-align</b>: left / right / center 
+                english / Hindi: left -- start, right -- end
+                Urdu = right -- start, left--end
+            </pre>
+            <br />
+            <div>
+              Example:
+              <p class="paraAlign">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni
+                molestiae ullam illo eius quaerat voluptate consectetur
+                quibusdam quidem modi, laboriosam aspernatur, autem mollitia
+                rerum quis blanditiis, est aliquid ut incidunt! Quia similique
+                sit nobis hic assumenda veniam iste ad natus, optio soluta
+                inventore consequuntur accusantium ducimus repudiandae in eum
+                asperiores laboriosam aperiam reprehenderit culpa accusamus
+                praesentium! Dolores ullam iste fuga! Itaque totam sequi, rem
+                amet magni consequatur aspernatur ab, molestiae, praesentium
+                officiis corrupti voluptatibus commodi repudiandae natus nobis?
+                Numquam asperiores cupiditate eaque aut perferendis, dignissimos
+                praesentium laudantium temporibus esse dicta. Voluptate beatae
+                obcaecati hic iste quaerat, vitae veniam possimus. Harum,
+                eligendi illum accusantium dolorem ad, optio voluptatem
+                similique doloremque quidem dolor cupiditate earum doloribus
+                consectetur laudantium id error cumque laborum? Accusamus quidem
+                quis laborum rerum, iusto eaque nisi numquam quia optio eum odio
+                laboriosam natus quo omnis voluptatibus consectetur nesciunt
+                libero minus inventore commodi. Dicta porro quas facilis!
+                Mollitia, distinctio?
+              </p>
+            </div>
+          </li>
+          <li>
+            <h4>text-decoration</h4>
+            <p class="listPara">
+              <b>text-decoration</b>: underline / overline / line-through /
+              none;
+            </p>
+            <br />
+            <div>
+              Example:
+              <a href="https://appifys.com" class="link"
+                >Appifys -- Click me!!</a
+              >
+            </div>
+          </li>
+          <li>
+            <h4>font-weight</h4>
+            <p class="listPara">
+              <b>font-weight</b>: normal / bold / bolder / lighter; <br /><b
+                >font-weight</b
+              >: 100-900
+            </p>
+            <br />
+            <div>
+              Example:
+              <h3 id="head1">Font Weight Head 1</h3>
+              <h3 id="head2">Font Weight Head 2</h3>
+              <h3 id="head3">Font Weight Head 3</h3>
+              <h3 id="head4">Font Weight Head 4</h3>
+            </div>
+          </li>
+          <li>
+            <h4>font-family</h4>
+            <p class="listPara">
+              <b>font-family</b>: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida
+              Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+              <br /><b>font-family</b>: arial
+            </p>
+            <br />
+            <div>
+              Example:
+              <h3 id="head1">Font Family Head 1</h3>
+            </div>
+          </li>
+        </ul>
+      </li>
+    </ol>
+
+    <!--UNITS IN CSS-->
+    <hr />
+    <h3>UNITS IN CSS</h3>
+    <ol>
+      <li class="list">
+        <h3><u class="list">Absolute:</u></h3>
+        <ul>
+          <li>
+            <h4>pixels (px):</h4>
+            <p class="listPara">
+              <b>font-size</b>: 2px;
+              <br />
+              96 px = 1 inch = 2.54cm
+            </p>
+            <br />
+            <div>
+              Example:
+              <p id="paraOne">Pixels Example 1</p>
+              <p id="paraTwo">Pixels Example 2</p>
+            </div>
+          </li>
+          <li>
+            <h4>line-height</h4>
+            <p class="listPara">
+              <b>line-height</b>: normal; // 2px;
+            </p>
+            <br />
+            <div>
+              Example:
+              <p class = "paraThree">Line Height Example 1: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nesciunt enim facere recusandae molestiae et totam excepturi, ut repellendus dolore suscipit voluptates natus est vero unde. Ducimus asperiores perferendis sequi?</p>
+            </div>
+          </li>
+          <li>
+            <h4>text-transform</h4>
+            <p class="listPara">
+              <b>text-transform</b>: uppercase / lowercase / capitalize / none;
+            </p>
+            <br />
+            <div>
+              Example:
+              <p class = "paraFour">Text Transform Example 1: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nesciunt enim facere recusandae molestiae et totam excepturi, ut repellendus dolore suscipit voluptates natus est vero unde. Ducimus asperiores perferendis sequi?</p>
+            </div>
+          </li>
+          <li>
+            <h4>font-family</h4>
+            <p class="listPara">
+              <b>font-family</b>: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida
+              Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+              <br /><b>font-family</b>: arial
+            </p>
+            <br />
+            <div>
+              Example:
+              <h3 id="head1">Font Family Head 1</h3>
+            </div>
+          </li>
+        </ul>
+      </li>
+    </ol>
+
+
+    <!-- PRACTISE SET 2-->
+    <hr/>
+    <h2 class="heading2">Practise Set 2</h2>
+    <ol>
+      <li>
+        <h3 class="list">
+          Create a heading centered on the page with all of its text capitalized by default.
+        </h3>
+        <!--Answer Q1-->
+        <div>
+          <h2 class="headQ1P2">This is Answer 1 from Practise Set 2.</h2>
+        </div>
+        <br />
+      </li>
+      <li>
+        <h3 class="list">
+          Set the font family of all the content in the document to "Times New Roman".
+        </h3>
+        <!--Answer 2-->
+        <div>
+          <p>Changing font in *{}</p>
+          <br />
+        </div>
+      </li>
+      <li>
+        <h3 class="list">Create one div inside another div:</h3>
+        <ul>
+          <li>set id & text "outer" for the first one & "inner" for second one</li>
+          <li>Set the outer div text size to 25px & inner div text size to 10px.</li>
+        </ul>
+        <br />
+        <!--Answer 3-->
+        <div id="outer">
+            Outer DIV
+            <div id = "inner">
+                Inner DIV
+            </div>
+        </div>
+      </li>
+    </ol>
+    <hr />
+    <a href="/Level2/index.html">Level 2: Box-Model</a>
+  </body>
+</html>
