@@ -1,0 +1,10 @@
+div{
+    height:150px;
+    width: 100px;
+    border: 2px solid black;
+    text-align: center;
+    background-image: url("plant.jpg");
+    background-size: cover;
+    position: fixed;
+    right:0;
+}
