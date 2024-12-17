@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+.container{
+    /*width: 800px;
+      height: 200px;*/
+    width: 600px;
+    height: 500px; 
+    display: flex;    
+    /*Let see Flexbox Direction
+    flex-direction: row-reverse; arrange from the right to left
+    flex-direction: column; arrange from left but in column-wise(top to bottom)
+    flex-direction: column-reverse; it starts from left but arranged in column-wise (bottom to top)*/
+    flex-direction: row;
+
+    /*
+    Let's see the flex-properties..    
+
+    row-wise...
+    
+    justify-content: flex-start; /*main-axis start: shifted to left (direction row means left to right)
+    justify-content: flex-end; /*main-axis end: shifted to right(direction row means left to right)
+    justify-content: space-around; /*distance between box4 & box5 is doubled the distance of box5 & flex-container
+    justify-content: space-between; /*distance between each boxes are equal, but startingbox and endingbox set to respective end of container
+    justify-content: space-evenly; /*distance between container to box1 and box 1 to box 2 and vice versa are same.
+    
+    */
+    justify-content: center;
+    /*flex-wrap: wrap-reverse;*/
+    flex-wrap: wrap;
+    /*align-items:flex-start; due to wrap, it gives space.. this will handle by align-content*/
+    align-items:flex-start;
+    /*align-content: flex-start;*/
+    
+}
+
+#box1{
+    background-color: aqua;
+}
+
+#box2{
+    background-color: pink;
+    height: 200px;
+    align-self: flex-end; /*for particular element alignment in term of cross-axis*/
+}
+
+#box3{
+    background-color: darkkhaki;
+}
+
+#box4{
+    background-color: indianred;
+}
+
+#box5{
+    background-color: slateblue;
+    align-self: flex-end; /*highest property than container's properties*/
+}
