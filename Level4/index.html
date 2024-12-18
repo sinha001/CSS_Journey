@@ -47,42 +47,111 @@
       </li>
       <li><b>flex-wrap: </b> nowrap / wrap / wrap-reverse;</li>
       <li><b>align-items: </b> alignment along the cross-axis.</li>
-      <li><b>align-content: </b> alignment of space between & around the content along the cross-axis;</li>
+      <li>
+        <b>align-content: </b> alignment of space between & around the content
+        along the cross-axis;
+      </li>
       <li><b>align-self: </b> alignment of individual along the cross axis.</li>
-      <li><b>flex-grow: </b> how much a flex item will grow relative to the rest of the flex items if space is available.</li>
-      <li><b>flex-shrink: </b> how much a flex item will shrink relative to the rest of the flex items if space is available.</li>
-
-
+      <li>
+        <b>flex-grow: </b> how much a flex item will grow relative to the rest
+        of the flex items if space is available.
+      </li>
+      <li>
+        <b>flex-shrink: </b> how much a flex item will shrink relative to the
+        rest of the flex items if space is available.
+      </li>
     </ul>
 
     <a href="./FlexExample1/example1.html">Flex Example 1</a>
     <br /><br />
 
-    
-     <!--Practise Set 6-->
+    <!--Practise Set 6-->
 
-     <h3>5. Practise Set 6</h3>
-     <ol>
-       <li>
-         Create a navbar with 4 options in the form of anchor tags inside list items. <br />
-         Now, use flexbox to place them all spaced equally in a single line.
-       </li>
-       <li>
-        Use flexbox to center one div inside another div. 
-       
+    <h3>5. Practise Set 6</h3>
+    <ol>
+      <li>
+        Create a navbar with 4 options in the form of anchor tags inside list
+        items. <br />
+        Now, use flexbox to place them all spaced equally in a single line.
+      </li>
+      <li>
+        Use flexbox to center one div inside another div.
+
         <p>Answer 1 & 2: <a href="./practiseset6/pset6.html">Answer...</a></p>
-    </li>
-       <li>
+      </li>
+      <li>
         Which has higher priority align-items or align-self?
 
         <p>Answer 3: align-self has higher priority.</p>
-       </li>
-       <br />
-     </ol>
-     <hr />
-     <a href="/Level1/index.html">Level 1: Basic-CSS</a>
-     <a href="/Level2/index.html">Level 2: Box-Model</a>
-     <a href="/Level3/index.html">Level 3: NEXT LEVEL of CSS</a>
-   
-</body>
+      </li>
+      <br />
+    </ol>
+
+    <h3>6. Media Queries</h3>
+    <ul>
+      Help create a responsive website
+      <li>
+        <pre>
+          @media (width: 600px){
+            div{
+              background-color: red;
+            }
+          }
+        </pre>
+      </li>
+      <li>
+        <pre>
+          @media (min-width:600px)
+          {
+            div{
+              background-color: red;
+            }
+          }
+        </pre>
+      </li>
+      <li>
+        <pre>
+          @media (min-width:200px) and (max-width: 300px)
+          {
+            div{
+              background-color: red;
+            }
+          }
+        </pre>
+      </li>
+    </ul>
+
+    <p>
+      Example: <a href="./FlexExample2/example2.html">Media Query Example</a>
+    </p>
+
+    <!--Practise Set 7-->
+
+    <h3>7. Practise Set 7</h3>
+    <ol>
+      <li>
+        Add a media query to implement the following:
+        <ul>
+          <li>
+            the color of a div changes to green for viewport width less than
+            300px
+          </li>
+          <li>
+            the color of a div changes to pink for viewport width between 300px & 400px
+          </li>
+          <li>
+            the color of a div changes to red for viewport width between 400px & 600px
+          </li>
+          <li>
+            the color of a div changes to blue for viewport width above 600px.
+          </li>
+        </ul>
+      </li>
+    </ol>
+    <p>Answer PS7: <a href="./practiseset7/pset7.html">Answer Practise Set 7 </a></p>
+    <hr />
+    <a href="/Level1/index.html">Level 1: Basic-CSS</a>
+    <a href="/Level2/index.html">Level 2: Box-Model</a>
+    <a href="/Level3/index.html">Level 3: NEXT LEVEL of CSS</a>
+  </body>
 </html>

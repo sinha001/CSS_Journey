@@ -1,0 +1,26 @@
+div{
+    height:200px;
+    width: 200px;
+    background-color: aquamarine;
+}
+
+/*check media query using inspect tool on browser*/
+@media (width: 600px){
+    div{
+        background-color: green;
+    }
+}
+
+@media (min-width: 600px)
+{
+    div{
+        background-color: red;
+    }
+
+}
+
+@media (min-width: 200px) and (max-width: 300px){
+    div{
+        background-color: burlywood;
+    }
+}
