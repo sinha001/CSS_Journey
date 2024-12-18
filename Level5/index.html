@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Level 5: Transition in CSS</title>
+    <link rel="stylesheet" href="/Level3/style.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Level 5: Transition</h1>
+    <h3>1. Transitions:</h3>
+    <ul>
+      <p class="boxPara">
+        Transitions enable you to define the transition between two states of an
+        element.<br />
+      </p>
+      <li>
+        <b>transition-property</b>: property you want to transition (font-size,
+        width etc.)
+      </li>
+      <li><b>transition-duration</b>: 2s / 4ms ..</li>
+      <li>
+        <b>transition-timing-function</b>: ease-in / ease-out / linear / steps
+        ...
+      </li>
+      <li><b>transition-delay</b>: 2s / 4ms ..</li>
+      <li>
+        <h3>Transition Shorthand:</h3>
+        <ul>
+          <p>property name | duration | timing-function | delay</p>
+          <li><b>transition</b>: font-size 2s ease-in-out 0.2s;</li>
+        </ul>
+      </li>
+      <p>Example 1: <a href="./Example1/exampl1.html">Example 1</a></p>
+    </ul>
+
+    <h3>2. CSS Transform:</h3>
+    <ul>
+      <p class="boxPara">
+        Used to apply 2D & 3D transformations to an element.<br />
+      </p>
+      <li>
+        <b>rotate</b>
+        <ul>
+          <li><b>tranform</b>: rotate(45deg);</li>
+          <br />
+          <li><b>rotate</b>: 45deg;</li>
+          <li><b>rotateX</b>: 45deg;</li>
+          <li><b>rotateY</b>: 45deg;</li>
+          <li><b>rotateZ</b>: 45deg;</li>
+        </ul>
+        <p>Example 2: <a href="./Example2/exampl2.html">Example 2</a></p>
+      </li>
+      <li>
+        <b>scale</b>
+        <ul>
+          <li><b>tranform</b>: scale(2);</li>
+          <br />
+          <li><b>tranform</b>: scale(2);</li>
+          <li><b>tranform</b>: scale(0.5);</li>
+          <li><b>tranform</b>: scale(1,2);</li>
+          <li><b>tranform</b>: scaleX(0.5);</li>
+          <li><b>tranform</b>: scaleY(0.5);</li>
+        </ul>
+        <p>Example 3: <a href="./Example2/exampl2.html">Example 3</a></p>
+      </li>
+
+      <li>
+        <b>translate</b>
+        <ul>
+          <li><b>tranform</b>: translate(20px);</li>
+          <br />
+          <li><b>tranform</b>: translate(20px);</li>
+          <li><b>tranform</b>: translate(15px);</li>
+          <li><b>tranform</b>: translate(10px,20px);</li>
+          <li><b>tranform</b>: translateX(20px);</li>
+          <li><b>tranform</b>: translateY(20px);</li>
+        </ul>
+        <p>Example 4: <a href="./Example2/exampl2.html">Example 4</a></p>
+      </li>
+
+      <li>
+        <b>skew</b>
+        <ul>
+          <li><b>tranform</b>: skew(20deg);</li>
+          <br />
+        </ul>
+        <p>Example 5: <a href="./Example2/exampl2.html">Example 5</a></p>
+      </li>
+    </ul>
+
+    <h3>3. Animation:</h3>
+    <ul>
+      <p class="boxPara">To animate CSS element.<br /></p>
+      <li>
+        <pre>
+            @keyframe myName{
+                from{
+                    font-size: 20px;
+                }
+                to{
+                    font-size: 40px;
+                }
+            }
+        </pre>
+      </li>
+      <p>
+        Example 1: <a href="./Example3/exampl3.html">Example 1: Animation</a>
+      </p>
+    </ul>
+    <h3>4. Animation Properties:</h3>
+    <ul>
+      <li>
+        <b>animation-name</b>
+      </li>
+      <li><b>animation-duration</b></li>
+      <li>
+        <b>animation-timing-function</b>
+      </li>
+      <li><b>animation-delay</b></li>
+
+      <li>
+        <b>animation-iteration-count</b>: how many times should animation apply?
+      </li>
+
+      <li><b>animation-direction</b>: normal / reverse / alternate / alternate-reverse ..</li>
+
+      <li>
+        <h3>Animation Shorthand:</h3>
+        <ul>
+          <li><b>animation</b>: myName 2s linear 0.2s infinite normal;</li>
+        </ul>
+      </li>
+
+      <p>
+        Example 2: <a href="./Example3/exampl3.html">Example 2: Animation Properties</a>
+      </p>
+    </ul>
+    <hr />
+    <a href="/Level1/index.html">Level 1: Basic-CSS</a>
+    <a href="/Level2/index.html">Level 2: Box-Model</a>
+    <a href="/Level3/index.html">Level 3: NEXT LEVEL of CSS</a>
+    <a href="/Level4/index.html">Level 4: FlexBox</a>
+  </body>
+</html>

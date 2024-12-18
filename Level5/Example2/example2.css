@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+}
+div {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  background-color: rgb(54, 88, 150);
+  border: 1px solid gray;
+  color: #ffffff;
+  /* transform: rotate(30deg);
+  rotate: x 90deg; notvisible(3d),
+  rotate: y 90deg; notvisible(3d),
+  rotate: z 90deg; visible(3d)
+  rotate: x 180deg;
+  */
+  transition: all ease-in-out 1s;
+}
+
+div:hover {
+  font-size: 20px;
+  color: #ffffff;
+  background-color: rgb(6, 91, 249);
+  /*transform: scaleY(0.5);
+    transform: rotate(90deg);
+    transform: translate(0,30px);  
+    transform: skew(90deg);  streched out from both x and y axis.
+  */
+  box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+div:active {
+  background-color: red;
+}
+
+div:focus {
+  background-color: greenyellow;
+}
